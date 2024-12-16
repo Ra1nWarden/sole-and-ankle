@@ -67,7 +67,9 @@ const Label = styled.div`
 const Link = styled.a`
   text-decoration: none;
   color: inherit;
-  max-width: 344px;
+  flex: 1;
+  min-width: 257px;
+  max-width: 340px;
 `;
 
 const Wrapper = styled.article`
